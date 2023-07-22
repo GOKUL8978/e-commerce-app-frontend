@@ -1,0 +1,19 @@
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    .item{
+        flex: 1;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        font-size: 14px;
+        input{
+            outline: none;
+            width: 300px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+}

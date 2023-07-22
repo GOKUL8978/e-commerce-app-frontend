@@ -1,0 +1,45 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    .top{
+        display: flex;
+        .item{
+            flex: 1;
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            font-size: 14px;
+            span{
+                color: gray;
+            }
+            h1{
+                font-size: 25px;
+                font-weight: 800;
+                color: #555;
+            }
+        }
+    }
+    .bottom{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            span{
+                color: gray;
+            }
+            h2{
+                color: red;
+            }
+        }
+
+    }
+}
