@@ -26,10 +26,10 @@ const Navbar = () => {
                 <Link  className='link'  to="/products/3">Mobiles</Link> 
            </div>
             <div className="item">
-               <Link  className='link'  to="/products/1">Earphones</Link> 
+               <Link  className='link'  to="/products/4">Earphones</Link> 
            </div>
             <div className="item">
-               <Link  className='link'  to="/products/4">Laptops</Link> 
+               <Link  className='link'  to="/products/5">Laptops</Link> 
            </div>
         </div>
         
