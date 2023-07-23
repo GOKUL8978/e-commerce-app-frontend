@@ -18,15 +18,15 @@ const Product = () => {
     <div className='product'>
       {loading ? ("loading") : (<><div className="left">
        <div className="images">
-        <img src={process.env.REACT_APP_UPLOAD_URL +
+        <img src={
                   data?.attributes?.img?.data?.attributes?.url} 
                   alt=""  
                   onClick={(e) => setSelectedImg("img")}/>
-        <img src={ process.env.REACT_APP_UPLOAD_URL +
+        <img src={ 
                   data?.attributes?.img2?.data?.attributes?.url} alt="" onClick={(e) => setSelectedImg("img2")}/>
        </div>
        <div className="mainimg">
-       <img src={ process.env.REACT_APP_UPLOAD_URL +
+       <img src={ 
                   data?.attributes?.[selectedImg]?.data?.attributes?.url}  alt="" />
        </div>
       </div>
