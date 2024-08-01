@@ -5,7 +5,7 @@ This repository contains the frontend code for our e-commerce web application. T
 
 ## Live Demo
 
-Check out the live demo [here](https://e-commerce-app-frontend-ja3d.vercel.app/).
+Check out the live demo [here](https://stalwart-bonbon-650a9e.netlify.app/).
 
 ## Screenshots
 
